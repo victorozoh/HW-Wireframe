@@ -1,0 +1,158 @@
+/** fonts and text properties**/
+.headingfonts{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.bodyfonts{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.textcolor {
+	color: gray;
+}
+
+/** headings **/
+h1{
+	background-color: #4aaaa5;
+	font-size: 1.8em;
+	color: white;
+	width:10%;
+	margin-left: 8%;
+	padding: 15px;
+	display: block;
+}
+
+h2 {
+	font-size:1.6em;
+	color: #4aaaa5;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+	font-weight: bold;
+}
+
+h3 {
+	color: #4aaaa5;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+	font-weight: bold;
+}
+
+h4 {
+	color:#777;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+/** top level wrapper **/
+
+
+#wrapper {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	width: 100%;
+}
+
+/** Navigation elements on page **/
+#navigation{
+	float: right;
+	margin-top: -25px;
+	margin-right: 16%;
+	color:lightgray;
+}
+
+nav a {
+	color:lightgray;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration-color: #4aaaa5;
+	border-bottom: 2px solid #4aaaa5;
+}
+
+/** CONTENTS **/
+
+#main_content {
+	
+	display: inline-block;
+	background-image: url("../images/concrete-texture.png");
+	min-height: calc(100vh - 100px);
+	width: 100%;
+}
+
+#section {
+	background-color: white;
+	width: 55%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 5%;
+	padding: 20px;
+}
+
+#connect {
+	background-color: white;
+	float: right;
+	width: 160px;
+	margin-top: 5%;
+	margin-right: 16%;
+	padding: 20px;
+}
+
+#social_links {
+	display: inline-block;
+}
+
+/** FOOTER **/
+
+#footer {
+	border-top: 8px solid #4aaaa5;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #666666;
+}
+
+.centered{
+	text-align: center;
+	color: lightgray;
+	margin-top: 36px;
+}
+
+/** CONTACT PAGE STYLES**/
+
+.textfield {
+	min-width: 40%;
+	width: 100%;
+}
+
+#message {
+	min-height: 160px;
+}
+
+#submit_button{
+	float:left;
+	background-color: #4aaaa5;
+	padding: 8px 16px;
+	color:white;
+	border:none;
+}
+
+/** PORTFOLIO PAGE STYLES**/
+
+.portfolio_images {
+	display: inline-block;
+  	width: calc(50% - 4px);
+  	margin-right: 8px;
+	height: 142px;
+	width: 190px;
+}
